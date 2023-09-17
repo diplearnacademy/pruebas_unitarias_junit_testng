@@ -23,11 +23,7 @@ public class Carrito {
         for (int i = 0; i <items.size() ; i++) {
             total += items.get(i).getPrecio();
         }
-        /*
-        for (Producto item : items) {
-             total += item.getPrecio();
-        }*/
-       ; return total;
+        return total;
     }
 
     public List<Producto> getProductos() {
