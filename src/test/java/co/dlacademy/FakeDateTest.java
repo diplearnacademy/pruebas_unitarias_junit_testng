@@ -7,7 +7,17 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class FakeDateTest extends BaseProductoCarritoTest {
+public class FakeDateTest{
+
+    private static   String nombreProducto;
+    private static   double precio;
+
+    @BeforeAll
+    static void setup(){
+        Faker faker = new Faker();
+        nombreProducto = faker.commerce().productName();
+        precio = faker.number().randomDouble(2,1,100);
+    }
 
 
 
