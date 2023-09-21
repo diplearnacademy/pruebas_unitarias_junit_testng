@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Carrito {
+
     private List<Producto> items;
 
     public Carrito() {
@@ -20,10 +21,11 @@ public class Carrito {
 
     public double calcularTotal() {
         double total = 0;
-        for (int i = 0; i <items.size() ; i++) {
-            total += items.get(i).getPrecio();
+
+        for (Producto item: items ) {
+            total += item.getPrecio();
         }
-        return total;
+        return  total;
     }
 
     public List<Producto> getProductos() {
