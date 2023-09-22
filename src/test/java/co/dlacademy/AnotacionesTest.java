@@ -2,6 +2,7 @@ package co.dlacademy;
 
 import org.junit.jupiter.api.*;
 
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class AnotacionesTest {
 
     @BeforeEach
@@ -25,14 +26,23 @@ public class AnotacionesTest {
     }
 
     @Test
+    @Order(3)
     void test1(){
         System.out.println("ejecutar test 1");
 
     }
 
     @Test
+    @Order(2)
     void test2(){
         System.out.println("ejecutar test 2");
+
+    }
+
+    @Test
+    @Order(1)
+    void test3(){
+        System.out.println("ejecutar test 3");
 
     }
 }

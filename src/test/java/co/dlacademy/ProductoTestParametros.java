@@ -20,9 +20,11 @@ public class ProductoTestParametros {
 
     private static Stream<Arguments> productos() {
         return Stream.of(
-                arguments("producto1", 10.0,10),
+                arguments("producto1", 10.0),
                 arguments("producto2", 6.8),
                 arguments("producto3", 27.8),
+                arguments("producto4", 89.8),
+                arguments("producto4", 89.8),
                 arguments("producto4", 89.8)
         );
 
@@ -33,12 +35,10 @@ public class ProductoTestParametros {
                 arguments(new Producto("tenis",10.0),"tenis"),
                 arguments(new Producto("medias",89.0),"medias"),
                 arguments(new Producto("saco",78.0),"saco"),
-                arguments(new Producto("chaqueta",45.0),"chaqueta")
+                arguments(new Producto("chaqueta",45.0),"botas")
         );
 
     }
-
-
 
 
     @ParameterizedTest
