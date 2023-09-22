@@ -1,10 +1,11 @@
 package co.dlacademy;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import static org.testng.Assert.assertEquals;
+
 
 public class HistorialCompraTest {
     private HistorialCompra historial;
@@ -12,7 +13,7 @@ public class HistorialCompraTest {
     private Producto producto1;
     private Producto producto2;
 
-    @BeforeEach
+    @BeforeMethod
     public void setUp() {
         historial = new HistorialCompra();
         carrito = new Carrito();
@@ -34,7 +35,7 @@ public class HistorialCompraTest {
         carrito.agregarProducto(producto1);
         historial.agregarCompra(carrito);
         Carrito carritoDevuelto = historial.obtenerCompras().get(0).getCarrito();
-        Assertions.assertEquals(carrito,carritoDevuelto);
+        assertEquals(carrito,carritoDevuelto);
 
         //Assertions.assertEquals(1,historial.obtenerCompras().size());
 

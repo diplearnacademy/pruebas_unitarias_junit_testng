@@ -1,10 +1,11 @@
 package co.dlacademy;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertNotNull;
 
 public class CompraTest {
     private Compra compra;
@@ -12,7 +13,7 @@ public class CompraTest {
     private Producto producto1;
     private Producto producto2;
 
-    @BeforeEach
+    @BeforeMethod
     public void setUp() {
         carrito = new Carrito();
         producto1 = new Producto("Producto 1", 10.0);

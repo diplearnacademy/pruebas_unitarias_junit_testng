@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-21T20:34:25 COT" name="Pruebas TestNg" finished-at="2023-09-21T20:34:25 COT" duration-ms="99">
+    <groups>
+    </groups>
+    <test started-at="2023-09-21T20:34:25 COT" name="Pruebas Carrito de Compras" finished-at="2023-09-21T20:34:25 COT" duration-ms="99">
+      <class name="co.dlacademy.ProductoTest">
+        <test-method signature="testProductoSinNombre()[pri:0, instance:co.dlacademy.ProductoTest@561b6512]" started-at="2023-09-21T20:34:25 COT" name="testProductoSinNombre" finished-at="2023-09-21T20:34:25 COT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductoSinNombre -->
+        <test-method signature="testObtenerNombre(java.lang.String,java.lang.String)[pri:0, instance:co.dlacademy.ProductoTest@561b6512]" started-at="2023-09-21T20:34:25 COT" name="testObtenerNombre" finished-at="2023-09-21T20:34:25 COT" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Zapatos]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[30.8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testObtenerNombre -->
+        <test-method signature="testObtenerPrecio()[pri:0, instance:co.dlacademy.ProductoTest@561b6512]" started-at="2023-09-21T20:34:25 COT" name="testObtenerPrecio" finished-at="2023-09-21T20:34:25 COT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testObtenerPrecio -->
+        <test-method signature="testProductoPrecioNegativo()[pri:0, instance:co.dlacademy.ProductoTest@561b6512]" started-at="2023-09-21T20:34:25 COT" name="testProductoPrecioNegativo" finished-at="2023-09-21T20:34:25 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductoPrecioNegativo -->
+      </class> <!-- co.dlacademy.ProductoTest -->
+      <class name="co.dlacademy.CarritoTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:co.dlacademy.CarritoTest@68e5eea7]" started-at="2023-09-21T20:34:25 COT" name="setUp" finished-at="2023-09-21T20:34:25 COT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:co.dlacademy.CarritoTest@68e5eea7]" started-at="2023-09-21T20:34:25 COT" name="setUp" finished-at="2023-09-21T20:34:25 COT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:co.dlacademy.CarritoTest@68e5eea7]" started-at="2023-09-21T20:34:25 COT" name="setUp" finished-at="2023-09-21T20:34:25 COT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCalcularTotal()[pri:0, instance:co.dlacademy.CarritoTest@68e5eea7]" started-at="2023-09-21T20:34:25 COT" name="testCalcularTotal" finished-at="2023-09-21T20:34:25 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalcularTotal -->
+        <test-method signature="testAgregarProducto()[pri:0, instance:co.dlacademy.CarritoTest@68e5eea7]" started-at="2023-09-21T20:34:25 COT" name="testAgregarProducto" finished-at="2023-09-21T20:34:25 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAgregarProducto -->
+        <test-method signature="testEliminarProducto()[pri:0, instance:co.dlacademy.CarritoTest@68e5eea7]" started-at="2023-09-21T20:34:25 COT" name="testEliminarProducto" finished-at="2023-09-21T20:34:25 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEliminarProducto -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:co.dlacademy.CarritoTest@68e5eea7]" started-at="2023-09-21T20:34:25 COT" name="tearDown" finished-at="2023-09-21T20:34:25 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:co.dlacademy.CarritoTest@68e5eea7]" started-at="2023-09-21T20:34:25 COT" name="tearDown" finished-at="2023-09-21T20:34:25 COT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:co.dlacademy.CarritoTest@68e5eea7]" started-at="2023-09-21T20:34:25 COT" name="tearDown" finished-at="2023-09-21T20:34:25 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- co.dlacademy.CarritoTest -->
+      <class name="co.dlacademy.CompraTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:co.dlacademy.CompraTest@ba54932]" started-at="2023-09-21T20:34:25 COT" name="setUp" finished-at="2023-09-21T20:34:25 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testObtenerCarrito()[pri:0, instance:co.dlacademy.CompraTest@ba54932]" started-at="2023-09-21T20:34:25 COT" name="testObtenerCarrito" finished-at="2023-09-21T20:34:25 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testObtenerCarrito -->
+        <test-method signature="testObtenerFecha()[pri:0, instance:co.dlacademy.CompraTest@ba54932]" started-at="2023-09-21T20:34:25 COT" name="testObtenerFecha" finished-at="2023-09-21T20:34:25 COT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testObtenerFecha -->
+        <test-method signature="testObtenerTotal()[pri:0, instance:co.dlacademy.CompraTest@ba54932]" started-at="2023-09-21T20:34:25 COT" name="testObtenerTotal" finished-at="2023-09-21T20:34:25 COT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testObtenerTotal -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:co.dlacademy.CompraTest@ba54932]" started-at="2023-09-21T20:34:25 COT" name="setUp" finished-at="2023-09-21T20:34:25 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:co.dlacademy.CompraTest@ba54932]" started-at="2023-09-21T20:34:25 COT" name="setUp" finished-at="2023-09-21T20:34:25 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- co.dlacademy.CompraTest -->
+      <class name="co.dlacademy.HistorialCompraTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:co.dlacademy.HistorialCompraTest@574b560f]" started-at="2023-09-21T20:34:25 COT" name="setUp" finished-at="2023-09-21T20:34:25 COT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:co.dlacademy.HistorialCompraTest@574b560f]" started-at="2023-09-21T20:34:25 COT" name="setUp" finished-at="2023-09-21T20:34:25 COT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="obtenerCompra()[pri:0, instance:co.dlacademy.HistorialCompraTest@574b560f]" started-at="2023-09-21T20:34:25 COT" name="obtenerCompra" finished-at="2023-09-21T20:34:25 COT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- obtenerCompra -->
+        <test-method signature="testAgregarCompra()[pri:0, instance:co.dlacademy.HistorialCompraTest@574b560f]" started-at="2023-09-21T20:34:25 COT" name="testAgregarCompra" finished-at="2023-09-21T20:34:25 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAgregarCompra -->
+      </class> <!-- co.dlacademy.HistorialCompraTest -->
+    </test> <!-- Pruebas Carrito de Compras -->
+  </suite> <!-- Pruebas TestNg -->
+</testng-results>

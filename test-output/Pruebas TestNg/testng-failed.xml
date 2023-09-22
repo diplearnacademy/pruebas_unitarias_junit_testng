@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [Pruebas TestNg]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="methods" name="Pruebas Carrito de Compras(failed)">
+    <classes>
+      <class name="co.dlacademy.HistorialCompraTest">
+        <methods>
+          <include name="testAgregarCompra"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- co.dlacademy.HistorialCompraTest -->
+    </classes>
+  </test> <!-- Pruebas Carrito de Compras(failed) -->
+</suite> <!-- Failed suite [Pruebas TestNg] -->
