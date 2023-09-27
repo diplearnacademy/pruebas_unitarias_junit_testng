@@ -17,6 +17,7 @@ build/
 *.iml
 *.iws
 .idea/
+.test-output
 !/gradle/wrapper/gradle-wrapper.jar
 
 # Libraries
