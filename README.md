@@ -27,3 +27,8 @@ Gradle genera un reporte en HTML para revisar este reporte ve a la siguiente rut
 
 
 ------------
+
+#### Diplomado de Automatización de Pruebas Web
+##### Dip Learn Academy y AseUTP
+##### Juan de Jesús Fernández Graciano
+##### Bryan Estefan Moreno Diaz
