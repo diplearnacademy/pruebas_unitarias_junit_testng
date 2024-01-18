@@ -35,7 +35,7 @@ public class ProductoTestParametros {
                 arguments(new Producto("tenis",10.0),"tenis"),
                 arguments(new Producto("medias",89.0),"medias"),
                 arguments(new Producto("saco",78.0),"saco"),
-                arguments(new Producto("chaqueta",45.0),"botas")
+                arguments(new Producto("botas",45.0),"botas")
         );
 
     }
