@@ -1,4 +1,4 @@
-### Proyecto Pruebas Unitarias Con Junit
+### Proyecto Pruebas Unitarias Con testng
 
 Este proyecto implementa pruebas unitarias usando Junit  y las anotaciones  mas  usadas
 

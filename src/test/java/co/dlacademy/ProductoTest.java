@@ -20,9 +20,6 @@ public class ProductoTest extends BaseProductoCarritoTest {
     }
 
 
-
-
-
     @Test
     @Parameters({"nombreProducto","precio"})
     public void testObtenerNombre(String nombreProducto,String precio) {
@@ -48,9 +45,6 @@ public class ProductoTest extends BaseProductoCarritoTest {
     public void testProductoPrecioNegativo() {
         assertThrows(IllegalArgumentException.class, () -> new Producto("Producto 2", 0));
     }
-
-
-
 
 }
 
